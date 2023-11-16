@@ -1,0 +1,119 @@
+/* Reset some default styles and set the base font family */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* Logo styling */
+.logo-container {
+    text-align: left;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.logo-container img {
+    width: 150px; /* Adjust the width as needed */
+}
+
+/* Sign-in container styling */
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+/* Background styling */
+.background {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/header-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sign-in container styling */
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+/* Form styling */
+form {
+    text-align: left;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e50914;
+    color: #fff;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+}
+
+/* Checkbox and help link styling */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Adjusted to move to the left */
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.checkbox-group label {
+    color: #8c8c8c;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 190px; /* Added margin for spacing between checkbox and label */
+}
+
+.help-link {
+    color: #8c8c8c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
